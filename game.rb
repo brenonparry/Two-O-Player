@@ -4,6 +4,12 @@ class Game
   end
 
   def start
-    puts "The game has started!"
+    puts "Welcome! The game has started!"
+    
+    question = Question.new
+    puts "#{question.new_turn}"
+    
+    
+
   end
 end

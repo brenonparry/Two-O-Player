@@ -3,8 +3,8 @@ require './game'
 class Question
   attr_reader :random_number1, :random_number2, :correct_answer
   def initialize
-    @random_number1 = rand(1..10)
-    @random_number2 = rand(1..10)
+    @random_number1 = rand(1..20)
+    @random_number2 = rand(1..20)
     @correct_answer = @random_number1 + @random_number2
     # puts "Player1: What is #{@random_number1} + #{@random_number2}?"
     # puts "+++++++++++++++++"
